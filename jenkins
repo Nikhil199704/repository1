@@ -11,8 +11,7 @@ pipeline
                echo 'Nikhil'
           }
     }
-  }
-   stage('checkout') 
+   stage('Jai ho ma') 
     {
       steps 
          {
@@ -20,4 +19,5 @@ pipeline
                echo 'Nikhil'
           }
     }
+ }
 }
