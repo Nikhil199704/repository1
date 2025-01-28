@@ -11,13 +11,5 @@ pipeline
                echo 'Nikhil'
           }
     }
-   stage('Jai ho ma') 
-    {
-      steps 
-         {
-               echo 'Testing'
-               echo 'Nikhil'
-          }
-    }
  }
 }
