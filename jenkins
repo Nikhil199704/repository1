@@ -11,5 +11,14 @@ pipeline
                echo 'Nikhil'
           }
     }
- }
+   stage('checkout') 
+    {
+      steps 
+         {
+               echo 'checkout'
+               echo 'Nikhil'
+          }
+    }
+}
+
 }
