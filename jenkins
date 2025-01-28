@@ -2,23 +2,14 @@ pipeline
 {
     agent any
     stages 
- {
+  {
    stage('checkout') 
     {
       steps 
          {
                echo 'checkout'
                echo 'Nikhil'
-          }
+          } 
     }
-   stage('checkout') 
-    {
-      steps 
-         {
-               echo 'checkout'
-               echo 'Nikhil'
-          }
-    }
-}
-
+ } 
 }
